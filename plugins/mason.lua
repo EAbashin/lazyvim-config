@@ -10,6 +10,7 @@ return {
         "bash-language-server",
         "tailwindcss-language-server",
         "typescript-language-server",
+        -- "vue-language-server",
         "vetur-vls",
         "eslint-lsp",
       })
