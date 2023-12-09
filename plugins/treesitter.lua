@@ -8,6 +8,7 @@ return {
         "scss",
         "vue",
         "bash",
+        "lua",
         "json",
         "markdown",
       },
