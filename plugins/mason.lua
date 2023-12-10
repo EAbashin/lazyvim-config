@@ -2,8 +2,8 @@ return {
   -- tools
   {
     "williamboman/mason.nvim",
-    opts = function(_, opts)
-      vim.list_extend(opts.ensure_installed, {
+    opts = {
+      ensure_installed = {
         "html-lsp",
         "css-lsp",
         "vue-language-server",
@@ -15,7 +15,10 @@ return {
         -- "typescript-language-server",
         -- "vetur-vls",
         -- "eslint-lsp",
-      })
-    end,
+      },
+      ui = {
+        border = "rounded",
+      },
+    },
   },
 }
