@@ -6,13 +6,15 @@ return {
       vim.list_extend(opts.ensure_installed, {
         "html-lsp",
         "css-lsp",
-        "json-lsp",
-        "bash-language-server",
-        "tailwindcss-language-server",
-        "typescript-language-server",
         "vue-language-server",
+        "bash-language-server",
+        "lua-language-server",
+
+        -- "json-lsp",
+        -- "tailwindcss-language-server",
+        -- "typescript-language-server",
         -- "vetur-vls",
-        "eslint-lsp",
+        -- "eslint-lsp",
       })
     end,
   },
