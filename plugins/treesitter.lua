@@ -6,10 +6,10 @@ return {
         "html",
         "scss",
         "vue",
+        "javascript",
         "bash",
         "lua",
 
-        -- "javascript",
         -- "json",
         -- "markdown",
       },
