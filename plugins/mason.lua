@@ -1,5 +1,4 @@
 return {
-	-- tools
 	{
 		"williamboman/mason.nvim",
 		opts = {
