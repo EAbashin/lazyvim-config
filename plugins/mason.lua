@@ -5,9 +5,9 @@ return {
 			ensure_installed = {
 				"html-lsp",
 				"css-lsp",
-				"vue-language-server",
-				"bash-language-server",
 				"lua-language-server",
+				-- "bash-language-server",
+				-- "vue-language-server",
 			},
 			ui = {
 				border = "rounded",
